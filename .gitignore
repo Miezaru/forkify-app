@@ -1,0 +1,15 @@
+#.idea - intelliJ IDEA Keybindings
+.idea
+.babelrc
+webpack.config.js
+.bashrc
+.eslintignore
+gulpfile.js
+#eslintrc
+.eslintrc
+#jshint
+.jshintrc
+#prettierrc
+.prettierrc
+cssscomb.json
+node_modules
