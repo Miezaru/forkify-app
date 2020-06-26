@@ -2,7 +2,6 @@
 .idea
 .babelrc
 webpack.config.js
-.DS_Store
 .bashrc
 .eslintignore
 #eslintrc
