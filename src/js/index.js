@@ -32,7 +32,7 @@ const controlSearch = async () => {
     renderLoader(elements.searchRes);
 
     try {
-      // *4) Search for recipes
+      // *4) Search for recipes and parse ingredients
       await state.search.getResults();
 
       // *5) Render results on UI
@@ -74,6 +74,8 @@ const controlRecipe = async () => {
     try {
       // *Get recipe data
       await state.recipe.getRecipe();
+      console.log(state.recipe.ingredients);
+      state.recipe.parseIngredients();
 
       // *Calculate servings and time
       state.recipe.calcTime();
