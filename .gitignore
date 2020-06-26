@@ -2,6 +2,7 @@
 .idea
 .babelrc
 webpack.config.js
+.DS_Store
 .bashrc
 .eslintignore
 #eslintrc
@@ -12,3 +13,4 @@ webpack.config.js
 .prettierrc
 cssscomb.json
 node_modules
+package-lock.json
