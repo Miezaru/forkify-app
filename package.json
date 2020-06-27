@@ -8,9 +8,6 @@
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "webpack-start": "webpack-dev-server --mode development --open",
     "start": "node server.js"
   },
   "devDependencies": {
