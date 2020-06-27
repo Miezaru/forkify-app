@@ -1,12 +1,17 @@
 {
   "name": "forkify",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.18.0",
+    "npm": "6.14.4"
+  },
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "webpack-start": "webpack-dev-server --mode development --open",
+    "start": "node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -26,7 +31,9 @@
   "dependencies": {
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
+    "express": "^4.17.1",
     "fractional": "^1.0.0",
+    "path": "^0.12.7",
     "uniqid": "^5.2.0"
   },
   "author": "Artem Usatyi",
